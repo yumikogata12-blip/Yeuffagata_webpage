@@ -39,16 +39,17 @@ h3{color:#FF69B4;font-size:20px;margin-bottom:30px;}
 <h2>🎉 School Activities</h2>
 <h3> PS: Some of the Photos are not mine and are captured by my classmates and by Paham and Standard Press, Thank you po! </h3>
 <ul>
-<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/buwanngwika.html" target="_blank" class="activity-link">Buwan ng Wika</a></li>
-<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/intramurals.html" target="_blank" class="activity-link">Intrams</a></li>
-<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/science%20month.html" target="_blank" class="activity-link">Science Month</a></li>
-<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apmonth.html" target="_blank" class="activity-link">AP Month</a></li>
-<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/teachersmonth.html" target="_blank" class="activity-link">Teacher's Month</a></li>
-<li><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/ictmonth.html"_blank" class="activity-link">Ict Month</a></li>
+<li><a href="buwanngwika.html" target="_blank" class="activity-link">Buwan ng Wika</a></li>
+<li><a href="intramurals.html" target="_blank" class="activity-link">Intrams</a></li>
+<li><a href="science%20month.html" target="_blank" class="activity-link">Science Month</a></li>
+<li><a href="apmonth.html" target="_blank" class="activity-link">AP Month</a></li>
+<li><a href="teachersmonth.html" target="_blank" class="activity-link">Teacher's Month</a></li>
+<li><a href="ictmonth.html"_blank" class="activity-link">Ict Month</a></li>
 </ul>
 </section>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/Webpage.html" class="back-home">🏠 Back to Homepage</a>
+<a href="Webpage.html" class="back-home">🏠 Back to Homepage</a>
 
 </body>
 </html>
+

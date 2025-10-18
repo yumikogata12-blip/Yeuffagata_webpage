@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson 5 — Setting Dimensions and Pseudo-Classes</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{
+--bg:#EAF1FA;
+--card:#F5FAFF;
+--accent:#A3C7E6;
+--muted:#CDE2F4;
+--frame:#DDEBFB;
+--text:#3E5C87;
+}
+html,body{height:100%;margin:0;font-family:'Comic Neue',cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease}
+h1,h2,h3{font-family:'Comic Neue',cursive;letter-spacing:1px;color:#547DB2}
+h1::before{content:"📘 ";}
+h2::before{content:"💡 ";}
+p,li{font-family:'Comic Neue',cursive}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.08);border-radius:10px;transition:transform 0.3s}
+.container:hover{transform:translateY(-3px)}
+ul{margin:8px 0 16px 20px}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dashed var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue',cursive;color:var(--text);text-decoration:none;border:2px solid var(--accent);padding:6px 14px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);display:inline-block;background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+th,td{padding:10px;border:1px solid var(--accent);text-align:left;}
+table{width:100%;border-collapse:collapse;margin-bottom:20px;}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:var(--muted);color:#3E5C87;font-weight:bold;letter-spacing:1px;">📘 Lesson 5 — Setting Dimensions and Pseudo-Classes</td></tr></table>
+
+<h2>Setting Dimensions</h2>
+<p>This CSS will make both paragraphs and headings written in typeface Arial and colored green.</p>
+<p>Can also be used to manage dimensions such as visibility, width or height of HTML elements.</p>
+
+<h2>Property for Dimensions</h2>
+<table>
+<tr><th>PROPERTY</th><th>DEFINITION</th></tr>
+<tr><td>visibility</td><td>If the element is visible or hidden</td></tr>
+<tr><td>width</td><td>Width</td></tr>
+<tr><td>height</td><td>Height</td></tr>
+<tr><td>line-height</td><td>Line spacing</td></tr>
+<tr><td>max-height</td><td>Maximum height</td></tr>
+<tr><td>min-height</td><td>Minimum height</td></tr>
+<tr><td>max-weight</td><td>Maximum weight</td></tr>
+<tr><td>min-weight</td><td>Minimum weight</td></tr>
+</table>
+
+<h2>Pseudo-Classes</h2>
+<p>Defined by a colon. They are not user-defined.</p>
+
+<h2>Types of Pseudo-Classes</h2>
+<ul>
+<li><strong>Link</strong> - Hyperlinks that have not yet been visited</li>
+<li><strong>Visited</strong> - Visited hyperlinks</li>
+<li><strong>Hover</strong> - Hyperlinks when the mouse is hovered over them</li>
+<li><strong>Active</strong> - Hyperlinks when they are clicked</li>
+</ul>
+
+<div class="photo-box">
+<img src="cinna.jpg" alt="Cinna" style="max-width:100%; max-height:100%; border-radius:10px;">
+</div>
+
+<div style="text-align:center; margin-top:20px;">
+<a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfive.html">⬅ Back to Lesson 5 Navigation Page</a>
+</div>
+</main>
+</body>
+</html>

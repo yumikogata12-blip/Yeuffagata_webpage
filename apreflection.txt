@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My AP Reflection</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&family=Handlee&display=swap');
+body{
+font-family:'Handlee', cursive;
+background-color:#FFF8F0;
+margin:0;
+padding:0;
+color:#333;
+}
+header{
+background-color:#FFDFD3;
+text-align:center;
+padding:30px;
+font-size:40px;
+color:#6B4C3B;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+border-radius:0 0 20px 20px;
+}
+main{
+padding:30px;
+}
+p{
+font-size:22px;
+padding:25px;
+border-radius:20px;
+box-shadow:3px 3px 15px rgba(0,0,0,0.2);
+margin-bottom:25px;
+line-height:1.8;
+}
+p:nth-child(1){
+background-color:#FFD6A5;
+border:2px solid #FFB347;
+}
+p:nth-child(2){
+background-color:#D6F5D6;
+border:2px solid #A0E7A0;
+}
+p:nth-child(3){
+background-color:#A0C4FF;
+border:2px solid #6B9EFF;
+}
+p:nth-child(4){
+background-color:#FFB3DE;
+border:2px solid #FF8FC1;
+}
+p:nth-child(5){
+background-color:#FFFACD;
+border:2px solid #FFF59D;
+}
+a.button{
+display:block;
+text-align:center;
+margin:40px auto;
+padding:15px 35px;
+font-size:20px;
+background-color:#FFB3DE;
+color:#fff;
+text-decoration:none;
+border-radius:15px;
+box-shadow:3px 3px 10px rgba(0,0,0,0.2);
+transition:0.3s;
+font-family:'Handlee', cursive;
+width:200px;
+}
+a.button:hover{
+background-color:#FF8FC1;
+transform:scale(1.05);
+}
+</style>
+</head>
+<body>
+<header>📚 My AP Reflection 📚</header>
+<main>
+<p>Sa pag-aaral ko tungkol sa demand at supply, natutunan ko kung paano nakakaapekto ang dami ng produkto sa presyo at paano nagbabago ito depende sa pangangailangan at kagustuhan ng tao. 😊 Napagtanto ko na hindi lang basta dami ang mahalaga, kundi kung paano ina-adjust ng mga negosyante at mamimili ang kanilang desisyon base sa presyo at availability ng produkto. Natutunan ko rin na may mga pagkakataon na mataas ang demand kahit mataas ang presyo, lalo na kung popular o kailangan ang produkto.</p>
+
+<p>Sa lesson naman ng price elasticity, naunawaan ko kung gaano kasensitibo ang mga mamimili sa pagbabago ng presyo. 💰 Halimbawa, may mga produkto na kapag tumaas ng kaunti ang presyo, marami agad ang hindi bibili, samantalang may mga produkto rin na kahit tumaas ang presyo, patuloy pa rin ang pagbili. Nakita ko kung paano ito nakakaapekto sa kita ng negosyo at kung paano ginagamit ang kaalaman sa price elasticity para planuhin ang presyo at promosyon ng produkto.</p>
+
+<p>Ang market equilibrium ay nagpakita sa akin ng balanse sa pagitan ng demand at supply. 🤝 Dito natin nakikita kung paano natutugunan ang pangangailangan ng mamimili habang kumikita rin ang nagbebenta. Kapag sobra ang supply, bumababa ang presyo, at kapag kulang ang supply, tumataas ang presyo. Ito ay nagpapakita ng natural na balanse sa merkado na mahalaga para sa maayos na ekonomiya.</p>
+
+<p>Nalaman ko rin ang iba't ibang estruktura ng pamilihan at kung paano naiimpluwensyahan nito ang presyo at kalidad ng produkto. 🛍️ Halimbawa, sa perfect competition, maraming nagbebenta at mababa ang presyo, samantalang sa monopoly, iisa lang ang nagbebenta kaya mataas ang presyo. Sa oligopoly naman, may ilang malalaking kumpanya na nakakaimpluwensya sa merkado. Ang kaalaman na ito ay nakakatulong para maintindihan kung paano naiiba ang merkado at paano nakakaapekto sa pang-araw-araw na buhay ng tao.</p>
+
+<p>Mahalaga rin ang papel ng pamahalaan sa regulasyon ng pamilihan. 🏛️ Ang pamahalaan ay tumutulong para maging patas ang kompetisyon, maprotektahan ang mamimili, at maiwasan ang pang-aabuso. Halimbawa, may mga batas at patakaran sila para siguraduhin na walang sobrang taas ng presyo at maayos ang kalidad ng produkto. Sa kabuuan, natutunan ko na ang merkado ay hindi lang tungkol sa presyo at produkto, kundi tungkol sa tamang balanse, patas na kompetisyon, at responsibilidad ng bawat isa sa pagpapanatili ng maayos at maunlad na ekonomiya. 🌸</p>
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apinteractive.html" class="button">Bumalik</a>
+</main>
+</body>
+</html>

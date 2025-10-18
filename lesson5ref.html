@@ -1,0 +1,37 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Lesson 5 — Reflection</title>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#fff8f9;--title-bg:#ffd5ec;--reflection-bg:#fff7cc;--title-text:#ff82a9;--reflection-text:#5a5a5a;--shadow-pink:rgba(244,194,194,0.5);--shadow-yellow:rgba(249,231,159,0.5);--border-pink:#f4c2c2;--border-yellow:#f9e79f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflection-text);padding:40px 20px}
+.container{max-width:800px;margin:auto;display:flex;flex-direction:column;min-height:100vh}
+.title-section{background:linear-gradient(135deg, var(--border-pink), var(--title-bg));color:var(--title-text);padding:30px 25px;border-radius:20px;box-shadow:0 8px 20px var(--shadow-pink);border:3px solid var(--border-pink);margin-bottom:30px;text-align:center}
+.title-section h1{font-weight:700;font-size:2.6em;letter-spacing:1px}
+.title-section h1::before{content:"📘 "}
+.reflection-section{background:linear-gradient(135deg, var(--reflection-bg), var(--border-yellow));color:var(--reflection-text);padding:30px;border-radius:20px;box-shadow:0 8px 20px var(--shadow-yellow);border:3px solid var(--border-yellow);font-size:1.15em;line-height:1.7;flex-grow:1}
+.reflection-section p{margin-bottom:1.2em}
+.back-link{display:inline-block;margin-top:30px;padding:12px 25px;background:var(--border-pink);color:#5a5a5a;font-weight:600;border-radius:30px;border:3px solid var(--border-yellow);box-shadow:0 6px 15px var(--shadow-pink);text-decoration:none;text-align:center;transition:background 0.3s ease,color 0.3s ease,box-shadow 0.3s ease;align-self:center;width:fit-content}
+.back-link:hover{background:var(--border-yellow);color:#333;box-shadow:0 6px 20px var(--shadow-yellow)}
+</style>
+</head>
+<body>
+<div class="container">
+<section class="title-section">
+<h1>Lesson 5 — Reflection</h1>
+</section>
+
+<section class="reflection-section">
+<p>This lesson helped me understand how CSS can be used to control the size and visibility of elements on a webpage. I learned about properties like <code>width</code>, <code>height</code>, <code>line-height</code>, and how they can be used to set the dimensions of headings, paragraphs, and other HTML elements.</p>
+<p>I also discovered the <code>visibility</code> property, which can hide an element without removing it from the layout. This is useful when I want something to disappear visually but still take up space in the design.</p>
+<p>One of the most interesting parts of this lesson was learning about <strong>pseudo-classes</strong>. These allow us to style elements based on their state, such as when a link is hovered over or clicked. This makes websites more interactive and user-friendly. I now better understand how styling and behavior can work together to create responsive and engaging web designs.</p>
+</section>
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfive.html" class="back-link">← Back to Navigation Page</a>
+</div>
+</body>
+</html>

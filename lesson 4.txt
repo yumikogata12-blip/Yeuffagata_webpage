@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson 4 — Display and Elements</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{
+--bg:#E6F4EA;
+--card:#F3FFF6;
+--accent:#A8E6A3;
+--muted:#C4F0C5;
+--frame:#DFFFE0;
+--text:#4E875B;
+}
+html,body{height:100%;margin:0;font-family:'Comic Neue', cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease}
+h1,h2,h3{font-family:'Comic Neue', cursive;letter-spacing:1px;color:#6FAF76}
+h1::before{content:"🌿 ";}
+h2::before{content:"✨ ";}
+p,li{font-family:'Comic Neue', cursive}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.08);border-radius:10px;transition:transform 0.3s}
+.container:hover{transform:translateY(-3px)}
+ul{margin:8px 0 16px 20px}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dashed var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue', cursive; color:var(--text); text-decoration:none; border:2px solid var(--accent); padding:6px 14px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1); display:inline-block; background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:var(--muted);color:#4E875B;font-weight:bold;letter-spacing:1px;">🌿 Lesson 4 — Display and Elements</td></tr></table>
+
+<h2>Display Property</h2>
+<p>Allows you to control how an element is displayed.</p>
+
+<h2>Types of Elements</h2>
+<p><strong>Block-level Elements</strong> - Vertical<br>
+Examples: &lt;p&gt;, &lt;ol&gt;, &lt;ul&gt;, &lt;dl&gt;, &lt;h1&gt; to &lt;h6&gt;, &lt;article&gt;, &lt;section&gt;, &lt;div&gt;</p>
+
+<p><strong>Inline-level Elements</strong> - Horizontal<br>
+Examples: &lt;a&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;em&gt;, &lt;b&gt;, &lt;i&gt;, &lt;q&gt;, &lt;mark&gt;</p>
+
+<h2>Property for Display</h2>
+<ul>
+<li>display:inline - Inline display or horizontal layout</li>
+<li>display:block - Block display or vertical layout</li>
+<li>display:list-item - Display as a list item &lt;li&gt;</li>
+<li>display:none - No box or the element has no effect on the layout</li>
+<li>display:inherit - Inherit value from parent</li>
+</ul>
+
+<h2>Div Tag</h2>
+<p>It divides the contents of a web page into individual sections. It allows you to apply style to different sections of your webpage. It is a block element.</p>
+<p><strong>CODE:</strong></p>
+<p><strong>OUTPUT:</strong></p>
+
+<h2>Span Tag</h2>
+<p>It is a generic way of adding structure to an HTML document. It is applied to an inline element. It is used to emphasize words or sentences within a paragraph.</p>
+<p><strong>CODE:</strong></p>
+<p><strong>OUTPUT:</strong></p>
+
+<h2>Span & Div</h2>
+<p>They do not have default styling information.</p>
+<table>
+<tr><th>Attribute</th><th>Definition</th><th>Values</th></tr>
+<tr><td>Class</td><td>Indicates the CSS style to be applied.</td><td>Ex.: &lt;div class=”Style1”&gt;&lt;/div&gt;</td></tr>
+</table>
+<p><strong>CSS:</strong></p>
+<p><strong>CODE:</strong></p>
+<p><strong>OUTPUT:</strong></p>
+
+<h2>CLASS</h2>
+<p>It is a user-defined selector defined by a dot (.). You can control individual HTML element formatting with the use of classes.</p>
+<p>Methods for writing class:</p>
+<ul>
+<li>Indicating the HTML element followed by a dot then followed by the class name.</li>
+<li>Writing the class name preceded by the dot.</li>
+</ul>
+
+<h2>CLASS SELECTOR</h2>
+<p>A style applied to a particular set of elements.</p>
+
+<h2>ID SELECTOR</h2>
+<p>A style applied to one element in a page. Defined by the “#” symbol. Uses the id attribute of the HTML element.</p>
+<p>HTML CODE</p>
+<p>CSS CODE</p>
+
+<h2>MULTIPLE SELECTORS</h2>
+<p>Two or more selectors have the same property and values, a comma is used to separate the selectors and use only one set of properties and value. No need to rewrite the whole list of properties and values.</p>
+
+<h2>GROUPING SELECTORS</h2>
+<p>You can group selectors and combine them in one CSS file. Each selector should be separated with a comma.</p>
+
+<div class="photo-box">
+<img src="Pochacco.jpg" alt="Pochacco" style="max-width:100%; max-height:100%; border-radius:10px;">
+</div>
+
+<div style="text-align:center; margin-top:20px;">
+<a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfour.html">⬅ Back to Lesson 4 Navigation Page</a>
+</div>
+</main>
+</body>
+</html>

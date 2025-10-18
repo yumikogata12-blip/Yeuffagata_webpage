@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Paragraphs</title></head>
+<body>
+<p>This is the first paragraph.</p>
+<p>This is the second paragraph.</p>
+ <p style="font-family:Arial; color:#FF1493;">This is the third paragraph. </p>
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson2bo2.html">Go to second Browser Output</a>
+</body>
+</html>

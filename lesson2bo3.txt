@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>External styles</title>
+<link rel="stylesheet" href="link.css" type="text/css" >
+</head>
+<body>
+<p><font size="5">Creative design CSS contains Adobe Photoshop, Illustrator, In Design and Acrobat. The book aims to educate the students in creating, designing and editing graphics using the different software that may work relatively. The book targets both knowledge and applications toward specific output that would basically develop skills towards a career.</font></p>
+<br>
+<br>
+<figure class="thumb">
+<img src="l2ss.png" alt="ls2">
+<figcaption>Browser output codes Screenshot</figcaption>
+<br>
+</figure>
+<figure class="thumb">
+<img src="linkss.png" alt="linkss">
+<figcaption>External codes screen shot</figcaption>
+</figure>
+
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessontwo.html">Go back to Lesson 2 Navigation Page</a>
+
+</body>
+</html>

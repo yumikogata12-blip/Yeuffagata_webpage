@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Lesson 1 — Reflection</title>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet" />
+<style>
+:root{--bg:#fff8f9;--title-bg:#ffd5ec;--reflection-bg:#fff7cc;--title-text:#ff82a9;--reflection-text:#5a5a5a;--shadow-title:rgba(255,130,169,0.4);--shadow-reflection:rgba(249,231,159,0.4);--frame-color-title:#ffb6c1;--frame-color-reflection:#f9e79f;--pastel-pink:#f4c2c2;--pastel-yellow:#f9e79f;--shadow-pink:rgba(244,194,194,0.5);--shadow-yellow:rgba(249,231,159,0.5)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflection-text);padding:40px 20px}
+.container{max-width:800px;margin:auto;display:flex;flex-direction:column;min-height:100vh}
+.title-section{background:linear-gradient(135deg, var(--pastel-pink), var(--title-bg));color:var(--title-text);padding:30px 25px;border-radius:20px;box-shadow:0 8px 20px var(--shadow-pink);border:3px solid var(--frame-color-title);margin-bottom:30px;text-align:center;position:relative}
+.title-section h1{font-weight:700;font-size:2.8em;letter-spacing:2px}
+.title-section h1::before{content:"🌸 "}
+.reflection-section{background:linear-gradient(135deg, var(--reflection-bg), var(--pastel-yellow));color:var(--reflection-text);padding:30px 30px;border-radius:20px;box-shadow:0 8px 20px var(--shadow-yellow);border:3px solid var(--frame-color-reflection);font-size:1.15em;line-height:1.7;transition:transform 0.3s ease;flex-grow:1}
+.reflection-section:hover{transform:translateY(-5px)}
+.reflection-section p{margin-bottom:1.2em}
+.back-link{display:inline-block;margin-top:30px;padding:12px 25px;background:var(--pastel-pink);color:#5a5a5a;font-weight:600;border-radius:30px;border:3px solid var(--pastel-yellow);box-shadow:0 6px 15px var(--shadow-pink);text-decoration:none;text-align:center;transition:background 0.3s ease,color 0.3s ease,box-shadow 0.3s ease;align-self:center;width:fit-content}
+.back-link:hover{background:var(--pastel-yellow);color:#333;box-shadow:0 6px 20px var(--shadow-yellow)}
+</style>
+</head>
+<body>
+<div class="container">
+<section class="title-section">
+<h1>Reflection</h1>
+</section>
+<section class="reflection-section">
+<p>In this lesson, I learned that CSS is essential for making web pages beautiful and organized. It separates the content from the design, which makes maintaining and updating pages much easier.</p>
+<p>I also realized how important it is to understand HTML first, since CSS builds on top of it to control appearance. This layering helps developers keep their projects clean and modular.</p>
+<p>Furthermore, CSS enables powerful styling techniques like gradients, shadows, and animations, which bring life and personality to websites. Using reusable rules through external stylesheets simplifies the process and ensures consistency across pages.</p>
+<p>Overall, this lesson deepened my appreciation for CSS as a fundamental tool in modern web development and showed me how it enhances user experience by making websites visually appealing and easy to navigate.</p>
+</section>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonone.html" class="back-link">← Back to Navigation Page</a>
+</div>
+</body>
+</html>

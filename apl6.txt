@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson — Regulasyon ng Pamilihan</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{--bg:#FFF4E0;--card:#FFF9EC;--accent:#FFD6A5;--muted:#FFECB3;--frame:#FFE3C4;--text:#D68B4E;}
+html,body{height:100%;margin:0;font-family:'Comic Neue', cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease;}
+h1,h2,h3{font-family:'Comic Neue', cursive;letter-spacing:1px;color:#E29A62;}
+h1::before{content:"🍊 ";}
+h2::before{content:"✨ ";}
+p,li{font-family:'Comic Neue', cursive;}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.08);border-radius:10px;transition:transform 0.3s;}
+.container:hover{transform:translateY(-3px);}
+ul{margin:8px 0 16px 20px;}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dotted var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue', cursive;color:var(--text);text-decoration:none;border:2px solid var(--accent);padding:6px 14px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);display:inline-block;background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:#FFE7C2;color:#D88B48;font-weight:bold;letter-spacing:1px;">🍊 Lesson — Bahaging Ginagampanan ng Pamahalaan sa Regulasyon ng Pamilihan</td></tr></table>
+
+<div style="width:80%; margin:15px auto;"><img src="pam.jpg" alt="Government Regulation" style="width:100%; max-height:250px; border-radius:12px;"></div>
+
+<h2>Ano ang Regulasyon ng Pamilihan?</h2>
+<p>Ang regulasyon ng pamilihan ay tumutukoy sa mga patakaran, batas, at hakbang na ipinapatupad ng pamahalaan upang mapanatili ang kaayusan, patas na kompetisyon, at proteksyon ng mamimili at prodyuser. Sa madaling salita, ito ang paraan ng gobyerno para siguraduhin na walang naloloko at patas ang takbo ng kalakalan.</p>
+
+<h2>Bakit Kailangan Makialam ang Pamahalaan?</h2>
+<ul>
+<li>Para maiwasan ang <strong>pananamantala</strong> gaya ng sobrang taas ng presyo.</li>
+<li>Upang magkaroon ng <strong>patas na kompetisyon</strong> at maiwasan ang monopolyo.</li>
+<li>Para protektahan ang mga mamimili laban sa <strong>mapanganib o mababang kalidad na produkto.</strong></li>
+<li>Upang matiyak na <strong>accessible ang mga pangunahing pangangailangan</strong> tulad ng bigas, gamot, at kuryente.</li>
+</ul>
+
+<h2>Mga Paraan ng Interbensyon ng Pamahalaan</h2>
+<p>May iba't ibang paraan ang pamahalaan para kontrolin at gabayan ang takbo ng pamilihan. Ito ay maaaring maging diretso tulad ng pagbabawal o pagpapataw ng presyo, o di kaya'y hindi direktang tulong tulad ng subsidiya at kampanya sa impormasyon.</p>
+
+<h2>Price Control: Price Ceiling at Price Floor</h2>
+<ul>
+<li><strong>Price Ceiling:</strong> Maximum na presyo na puwedeng itakda. Halimbawa: bawal ibenta ang bigas nang lampas sa itinakdang presyo ng DTI para manatiling abot-kaya.</li>
+<li><strong>Price Floor:</strong> Minimum na presyo para hindi malugi ang mga prodyuser. Halimbawa: itinatakda ang minimum price ng palay para hindi maloko ang mga magsasaka.</li>
+</ul>
+
+<h2>Buwis at Subsidy</h2>
+<ul>
+<li><strong>Buwis (Tax):</strong> Ipinapataw sa produkto para mabawasan ang sobra-sobrang konsumo o para kumita ang pamahalaan. Halimbawa: sin tax sa alak at sigarilyo.</li>
+<li><strong>Subsidy:</strong> Tulong pinansyal mula sa gobyerno para mapababa ang presyo ng produkto o suportahan ang prodyuser. Halimbawa: fertilizer subsidy sa magsasaka.</li>
+</ul>
+
+<h2>Pagpapatupad ng Batas at Proteksyon sa Mamimili</h2>
+<p>Ang pamahalaan ay nagpapatupad ng mga batas katulad ng Consumer Act upang siguruhing tama ang label, presyo, at kalidad ng mga produkto. Maaari ring maghain ng reklamo ang mamimili kung naloko o nakatanggap ng depektibong produkto.</p>
+
+<h2>Monitoring at Pagpapanatili ng Katarungan sa Pamilihan</h2>
+<p>Regular na nagsasagawa ng <strong>price monitoring</strong>, inspection, at market surveillance ang mga ahensya tulad ng DTI at DA upang bantayan ang presyo at kalidad ng bilihin.</p>
+
+<h2>Halimbawa sa Totoong Buhay</h2>
+<ul>
+<li>Kapag may bagyo, naglalagay ang gobyerno ng <em>price freeze</em> para hindi magtaas ng presyo ng bigas, tubig, at de lata.</li>
+<li>Ang gobyerno ay nagbibigay ng <strong>fuel subsidy</strong> sa mga jeepney driver kapag tumataas ang presyo ng gasolina.</li>
+<li>Kapag may nag-overprice sa palengke, puwedeng hulihin o patawan ng multa ng DTI.</li>
+</ul>
+
+<div class="photo-box"><img src="hlkt.jpg" alt="hellokittyoran" style="max-width:100%; max-height:100%; border-radius:10px;"></div>
+<div style="text-align:center; margin-top:20px;"><a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apinteractive.html">⬅ Back</a></div>
+</main>
+</body>
+</html>

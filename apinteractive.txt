@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AP</title>
+<style>
+body{font-family:'Kristen ITC','Bradley Hand','Segoe Print',cursive;background:url('mymelo.bg.gif') no-repeat center center fixed;background-size:cover;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;flex-direction:column;}
+.navbar{margin-bottom:30px;}
+.navbar a{display:inline-block;margin:0 15px;padding:10px 25px;border:2px solid #FF69B4;border-radius:20px;background:#FFDEE9;color:#FF69B4;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(255,182,193,0.3);transition:all 0.3s;}
+.navbar a:hover{background:#FFB6C1;color:white;transform:scale(1.05);}
+.center-table{border:3px solid #FFB6C1;box-shadow:0 6px 12px rgba(255,182,193,0.4);border-radius:25px;background:#FFF0F5;padding:30px;width:80%;text-align:center;}
+a.back-home:hover{background:#5a5aff;color:white;transform:scale(1.05);}
+h1{color:#FF69B4;text-shadow:2px 2px #FFC0CB;font-size:50px;margin-bottom:10px;}
+h3{color:#FF69B4;text-shadow:1px 1px #FFC0CB;font-size:28px;margin-bottom:20px;}
+li{margin:15px 0;}
+a.lesson-link,a.activity-link,a.back-home{display:inline-block;padding:10px 20px;margin:5px;border:2px solid #FFB6C1;border-radius:20px;background:#FFD9EC;color:#FF69B4;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(255,182,193,0.3);transition:all 0.3s;}
+a.lesson-link:hover,a.activity-link:hover,a.back-home:hover{background:#FFB6C1;color:white;transform:scale(1.05);}
+</style>
+</head>
+
+<body>
+<div class="navbar">
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/AP%20interactive.html#">Lesson 1</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apl2.html">Lesson 2</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apl3.html">Lesson 3</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apl4.html">Lesson 4</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apl5.html#">Lesson 5</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apl6.html">Lesson 6</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apreflection.html">My Reflection</a>
+</div>
+
+<div class="center-table">
+<h1>💖 Welcome to Ap Interactive Webpage! 💖</h1>
+<h3>Yeuffa Yumiko R. Gata - 9 Fidelity</h3>
+</div>
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/Webpage.html" class="back-home">🏠 Back to Homepage</a>
+</body>
+</html>

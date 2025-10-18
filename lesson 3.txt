@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson 3 — CSS Style Guide</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{
+--bg:#FFF9D6;
+--card:#FFFDF3;
+--accent:#FFEAB6;
+--muted:#F7E7A8;
+--frame:#FFF3B0;
+--text:#B89B4E;
+}
+html,body{height:100%;margin:0;font-family:'Comic Neue', cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease}
+h1,h2,h3{font-family:'Comic Neue', cursive;letter-spacing:1px;color:#C5A746}
+h1::before{content:"🌼 ";}
+h2::before{content:"✨ ";}
+p,li{font-family:'Comic Neue', cursive}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.08);border-radius:10px;transition:transform 0.3s}
+.container:hover{transform:translateY(-3px)}
+ul{margin:8px 0 16px 20px}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dashed var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue', cursive; color:var(--text); text-decoration:none; border:2px solid var(--accent); padding:6px 14px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1); display:inline-block; background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:var(--muted);color:#B89B4E;font-weight:bold;letter-spacing:1px;">🌼 Lesson 3 — CSS Style Guide</td></tr></table>
+<h2>CSS and Browsers</h2>
+<p>HTML browsers that can handle style sheets are not case-sensitive.</p>
+<h2>Punctuation in CSS</h2>
+<p>All the punctuation in CSS is important. All style declarations must have a colon between the name of the style property and the value or values assigned.</p>
+<h2>White Space</h2>
+<p>White space must exist where indicated. The user can, however, add extra whitespace to make the code more readable.</p>
+<h2>Style Properties</h2>
+<ul>
+<li>Fonts</li>
+<li>Color and backgrounds</li>
+<li>Text</li>
+<li>Boxes and layout</li>
+<li>Lists</li>
+<li>Tag classification</li>
+</ul>
+<h2>Property Values</h2>
+<p><strong>Keywords:</strong> They express an attribute or dimension with a reserved word. Example: xx-large, sans-serif, underline.</p>
+<p><strong>Length Values:</strong> They explicitly state the size of a property. They must include a two-character abbreviation of the units of measure as a suffix.</p>
+<h2>Percentage & URL</h2>
+<p>Percentage values describe proportions using % sign. URLs are relative when style sheet is external.</p>
+<h2>Color Values</h2>
+<p>Examples: red (name), #8ACE00 (hex), RGB (0%, 100%, 50%).</p>
+<h2>Multiple Style Sheets</h2>
+<p>When multiple styles exist, the last declared one takes priority.</p>
+<h2>Three CSS Style Methods</h2>
+<ul>
+<li><strong>Linked</strong> - Using external .css file.</li>
+<li><strong>Internal</strong> - Using &lt;style&gt; in head.</li>
+<li><strong>Inline</strong> - Using style attribute directly.</li>
+</ul>
+<h2>Cascading Order</h2>
+<ol>
+<li>Inline style</li>
+<li>External & internal styles</li>
+<li>Browser default</li>
+</ol>
+<h2>CSS Selectors</h2>
+<p>State which element to style.</p>
+<p><strong>Element Selector</strong> - Targets elements like p, h1, div.</p>
+<p><strong>ID Selector</strong> - Uses #name.</p>
+<p><strong>Class Selector</strong> - Uses .classname.</p>
+<p><strong>Universal Selector</strong> - Uses *</p>
+<p><strong>Group Selector</strong> - Uses commas.</p>
+<p><strong>Attribute Selector</strong> - Targets by attribute.</p>
+<div class="photo-box">
+<img src="pompompurin.jpg" alt="Pompompurin" style="max-width:100%; max-height:100%; border-radius:10px;"/>
+</div>
+<div style="text-align:center; margin-top:20px;"><a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonthree.html">⬅ Back to Lesson 3 Navigation Page</a></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson — Price Elasticity AP9</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{--bg:#f7f3ff;--card:#fcfaff;--accent:#d8b4f8;--muted:#c4a7e7;--frame:#e9d5ff;--text:#a678d6;}
+html,body{height:100%;margin:0;font-family:'Comic Neue', cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease;}
+h1,h2,h3{font-family:'Comic Neue', cursive;letter-spacing:1px;color:#b388eb;}
+h1::before{content:"🌸 ";}
+h2::before{content:"✨ ";}
+p,li{font-family:'Comic Neue', cursive;}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.08);border-radius:10px;transition:transform 0.3s;}
+.container:hover{transform:translateY(-3px);}
+ul{margin:8px 0 16px 20px;}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dotted var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue', cursive;color:var(--text);text-decoration:none;border:2px solid var(--accent);padding:6px 14px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);display:inline-block;background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:#e6d7ff;color:#b38bfa;font-weight:bold;letter-spacing:1px;">🌸 Lesson — Price Elasticity</td></tr></table>
+
+<div style="width:80%; margin:15px auto;"><img src="elasticity.jpg" alt="Price Elasticity Curve" style="width:100%; max-height:250px; border-radius:12px;"></div>
+
+<h2>Ano ang Price Elasticity?</h2>
+<p>Ang Price Elasticity ay ang sukatan kung gaano kabilis o kalaki ang reaksyon ng mamimili o prodyuser sa pagbabago ng presyo. Mahalaga ito upang malaman ng mga negosyante at ekonomista kung gaano kasensitibo ang merkado sa pagbabago ng presyo.</p>
+
+<h2>Price Elasticity of Demand (PED)</h2>
+<p>Sinusukat kung gaano kabilis magbago ang dami ng demand kapag nagbago ang presyo.</p>
+<p><strong>Formula:</strong> % pagbabago sa demand ÷ % pagbabago sa presyo</p>
+<ul>
+<li><strong>Elastic (>1):</strong> Malaki ang reaksyon — kaunting taas ng presyo, bumabagsak agad ang demand. Halimbawa: milk tea, gadgets.</li>
+<li><strong>Inelastic (<1):</strong> Kahit tumaas ang presyo, patuloy pa rin ang pagbili. Halimbawa: bigas, gamot, gasolina.</li>
+<li><strong>Unitary (=1):</strong> Pantay ang pagbabago ng presyo at demand.</li>
+<li><strong>Perfectly Elastic (∞):</strong> Kaunting taas lang ng presyo, wala nang bibili.</li>
+<li><strong>Perfectly Inelastic (0):</strong> Kahit tumaas presyo, pareho pa rin ang demand. Halimbawa: insulin.</li>
+</ul>
+
+<h2>Price Elasticity of Supply (PES)</h2>
+<p>Sinusukat kung gaano kabilis magdagdag ang prodyuser ng supply kapag tumaas ang presyo.</p>
+<p><strong>Formula:</strong> % pagbabago sa supply ÷ % pagbabago sa presyo</p>
+<ul>
+<li><strong>Elastic Supply (>1):</strong> Mabilis magdagdag ng supply. Halimbawa: cupcakes, t-shirt printing.</li>
+<li><strong>Inelastic Supply (<1):</strong> Mabagal ang produksyon kaya mahirap dagdagan ang supply. Halimbawa: mangga, kotse.</li>
+<li><strong>Perfectly Inelastic (0):</strong> Hindi nadaragdagan kahit tumaas presyo. Halimbawa: antigong bagay.</li>
+<li><strong>Perfectly Elastic (∞):</strong> Walang limit ang supply basta may demand.</li>
+</ul>
+
+<h2>Mga Salik na Nakaaapekto</h2>
+<p><strong>Para sa Demand:</strong> Pangangailangan o luho, may kapalit ba, kakayahan ng mamimili, at oras ng pag-adjust.</p>
+<p><strong>Para sa Supply:</strong> Bilis ng produksyon, availability ng resources, teknolohiya, at panahon ng produksyon.</p>
+
+<h2>Halimbawa sa Totoong Buhay</h2>
+<ul>
+<li>Kapag tumaas presyo ng milk tea, maraming estudyante ang magtitipid — <em>elastic demand</em>.</li>
+<li>Kapag tumaas presyo ng bigas, bibilhin pa rin — <em>inelastic demand</em>.</li>
+<li>Kung tumaas presyo ng cake, mabilis magdagdag ang baker — <em>elastic supply</em>.</li>
+<li>Kung tumaas presyo ng mangga, hindi agad madaragdagan — <em>inelastic supply</em>.</li>
+</ul>
+
+<div class="photo-box"><img src="kuromi.jpg" alt="kuromi" style="max-width:100%; max-height:100%; border-radius:10px;"></div>
+
+<div style="text-align:center; margin-top:20px;"><a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apinteractive.html">⬅Bumalik</a></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ICT Month — LPSCI</title>
+<link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Handlee','Kristen ITC','Bradley Hand',cursive;background:linear-gradient(135deg,#ffe6e6,#fff0f0);color:#5b3b3b;text-align:center;padding:20px;}
+.wrap{max-width:1100px;margin:40px auto;padding:20px;text-align:center;}
+header{text-align:center;padding:28px 12px;background:linear-gradient(90deg,#ffcccc,#ff9999);border-radius:18px;box-shadow:0 8px 30px rgba(255,100,100,0.3);border:1px solid rgba(255,120,120,0.35);}
+header h1{font-family:'Handlee',cursive;margin:6px 0;font-size:44px;color:#ff3333;}
+header p{margin:4px 0 0;font-size:15px;color:#7a4444;}
+.grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:22px;justify-items:center;}
+.card{background:#ffe5e5;border-radius:20px;padding:25px;box-shadow:0 6px 15px rgba(255,100,100,0.3);border:2px dashed #ff9999;transition:all 0.3s;width:80%;max-width:700px;text-align:center;}
+.card:hover{transform:scale(1.02);}
+h2{font-family:'Handlee',cursive;font-size:32px;color:#cc0000;margin-bottom:15px;}
+.reflection p{line-height:1.7;font-size:18px;margin:10px 0;}
+.gallery{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:12px;}
+.thumb{background:#fff2f2;border-radius:12px;padding:8px;width:calc(50% - 14px);min-width:180px;text-align:center;border:1px solid rgba(255,100,100,0.18);box-shadow:0 4px 10px rgba(255,100,100,0.2);}
+.thumb img{width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:8px;border:2px solid #ffcccc;}
+.thumb figcaption{font-size:14px;color:#7a4444;}
+.video-wrap{margin-top:12px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap;}
+video{border-radius:10px;width:320px;max-width:100%;box-shadow:0 8px 20px rgba(255,100,100,0.2);border:1px solid rgba(255,100,100,0.16);background:#000;}
+a.back-home{display:inline-block;margin:30px 0;padding:10px 20px;border:2px solid #ff3333;border-radius:20px;background:#ffcccc;color:#cc0000;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(255,100,100,0.3);transition:all 0.3s;}
+a.back-home:hover{background:#ff9999;color:white;transform:scale(1.05);}
+@media(max-width:480px){.thumb{width:100%;}header h1{font-size:34px;}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>💻 ICT Month — LPSCI</h1>
+<p>2025-2026</p>
+</header>
+<div class="grid">
+<section class="card reflection" id="reflection">
+<h2>📝 Reflection</h2>
+<p>During ICT Month, we participated in the NutriChant competition. Although our team did not win, I learned a lot about teamwork, preparation, and presentation skills. Competing with other groups helped me see the importance of practice, coordination, and staying calm under pressure.</p>
+<p>I actively supported my team by contributing ideas, helping with the presentation, and encouraging my classmates throughout the event. Even though we didn’t come out on top, the experience taught me to handle both success and failure gracefully. I can apply what I learned by improving my performance in future competitions and working better with others to achieve our goals. 💻🎶</p>
+</section>
+<section class="card" id="media">
+<h2>📸 Photos & 🎥 Videos</h2>
+<div class="gallery" aria-label="Photo gallery">
+<figure class="thumb">
+<img src="ict1.jpg" alt="ICT Month photo 1">
+<figcaption>Our section Performing our Nutrichant.</figcaption>
+</figure>
+<figure class="thumb">
+<img src="ict2.jpg" alt="ICT Month photo 2">
+<figcaption>Me waiting for our Perfomance><</figcaption>
+</figure>
+</div>
+<div class="video-wrap" aria-label="Video gallery">
+<video controls poster="ictmonth-poster.jpg">
+<source src="ictvid.mp4" type="video/mp4">
+</video>
+</div>
+<footer>🌸ICT Month 2025-2026 Gallery🌸</footer>
+</section>
+</div>
+<a href="tle-ict.html" class="back-home">🌸 Back to TLE-ICT page 🌸</a>
+</div>
+</body>
+</html>

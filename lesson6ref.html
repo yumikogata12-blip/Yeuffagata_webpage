@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Lesson 6 — Reflection</title>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#fff8f0;--title-bg:#ffd699;--reflection-bg:#ffe5b4;--title-text:#ff8c42;--reflection-text:#5a5a5a;--shadow-orange:rgba(255,165,0,0.4);--border-orange:#ffa500}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Comic Neue',cursive;background:var(--bg);color:var(--reflection-text);padding:40px 20px}
+.container{max-width:800px;margin:auto;display:flex;flex-direction:column;min-height:100vh}
+.title-section{background:linear-gradient(135deg,var(--border-orange),var(--title-bg));color:var(--title-text);padding:30px 25px;border-radius:20px;box-shadow:0 8px 20px var(--shadow-orange);border:3px solid var(--border-orange);margin-bottom:30px;text-align:center}
+.title-section h1{font-weight:700;font-size:2.6em;letter-spacing:1px}
+.title-section h1::before{content:"🍊 "}
+.reflection-section{background:linear-gradient(135deg,var(--reflection-bg),var(--border-orange));color:var(--reflection-text);padding:30px;border-radius:20px;box-shadow:0 8px 20px var(--shadow-orange);border:3px solid var(--border-orange);font-size:1.15em;line-height:1.7;flex-grow:1}
+.reflection-section p{margin-bottom:1.2em}
+.back-link{display:inline-block;margin-top:30px;padding:12px 25px;background:var(--border-orange);color:#5a5a5a;font-weight:600;border-radius:30px;border:3px solid var(--border-orange);box-shadow:0 6px 15px var(--shadow-orange);text-decoration:none;text-align:center;transition:background 0.3s ease,color 0.3s ease,box-shadow 0.3s ease;align-self:center;width:fit-content}
+.back-link:hover{background:#ffb84d;color:#333;box-shadow:0 6px 20px var(--shadow-orange)}
+</style>
+</head>
+<body>
+<div class="container">
+<section class="title-section">
+<h1>Lesson 2 — Reflection</h1>
+</section>
+
+<section class="reflection-section">
+<p>In this lesson, I learned that CSS is really helpful for managing the dimensions of HTML elements. I can set the width and height of different parts of a webpage, and I can also control whether something is visible or hidden using visibility. This makes it easier to organize content and make the webpage look clean and neat.</p>
+<p>I tried applying these settings in my own example, and it was interesting to see how changing the size of one element affected the overall layout. I realized that even small adjustments in CSS can make a big difference in how a webpage looks and feels. Learning this makes me more confident in designing webpages that are both functional and visually appealing.</p>
+</section>
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonsix.html" class="back-link">← Back to Navigation Page</a>
+</div>
+</body>
+</html>

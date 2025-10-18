@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson 1 — What is CSS?</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{
+--bg:#FFEAF2;
+--card:#FFF5FA;
+--accent:#FFB3C6;
+--muted:#FFC6D6;
+--frame:#FFD6E8;
+--text:#B84E7D;
+}
+html,body{height:100%;margin:0;font-family:'Comic Neue', cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease}
+h1,h2,h3{font-family:'Comic Neue', cursive;letter-spacing:1px;color:#C56B9C}
+h1::before{content:"🌸 ";}
+h2::before{content:"✨ ";}
+p,li{font-family:'Comic Neue', cursive}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(15,23,42,0.08);border-radius:10px;transition:transform 0.3s}
+.container:hover{transform:translateY(-3px)}
+ul{margin:8px 0 16px 20px}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dashed var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue', cursive; color:var(--text); text-decoration:none; border:2px solid var(--accent); padding:6px 14px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.1); display:inline-block; background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:var(--muted);color:#B84E7D;font-weight:bold;letter-spacing:1px;">🌸 Lesson 1 — What is CSS?</td></tr></table>
+
+<h2>Definition</h2>
+<p>CSS (Cascading Style Sheet) describes how HTML elements are to be displayed on media. It is used to define styles for your web pages and saves a lot of work. External stylesheets are stored in CSS files.</p>
+
+<h2>Prerequisite</h2>
+<p>You should have a basic knowledge and understanding of HTML or XHTML to continue learning CSS.</p>
+
+<h2>Layers of the Webpage</h2>
+<ul>
+<li><strong>Content (HTML)</strong>: Defines the text, images, video, and everything to put in a web page using tags.</li>
+<li><strong>Presentation (CSS)</strong>: Defines how the page looks in a browser, including layout, color, and fonts.</li>
+<li><strong>Behavior (JavaScript)</strong>: Handles interactivity and dynamic content for the page.</li>
+</ul>
+
+<h2>HTML vs CSS</h2>
+<p><strong>HTML</strong>: creates the content/foundation of the page.</p>
+<p><strong>CSS</strong>: responsible for the design, style, layout, visual effects, and colors.</p>
+
+<h2>Benefits of Using CSS</h2>
+<ul>
+<li>Saves work</li>
+<li>Easy maintenance</li>
+<li>Improves visual appeal</li>
+</ul>
+
+<section class="photo-box">
+<img src="melody.jpg" alt="melody" style="max-width:100%; max-height:100%; border-radius:10px;"/>
+</section>
+
+<div style="text-align:center; margin-top:20px;">
+<a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonone.html">⬅ Back to Lesson 1 Navigation Page</a>
+</div>
+</main>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Lesson — Iba't Ibang Estruktura ng Pamilihan G9</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400&display=swap');
+:root{--bg:#FFF9D6;--card:#FFFDF3;--accent:#FFEAB6;--muted:#F7E7A8;--frame:#FFF3C4;--text:#B88B3A;}
+html,body{height:100%;margin:0;font-family:'Comic Neue', cursive;background:var(--bg);color:var(--text);transition:background 0.3s ease;}
+h1,h2,h3{font-family:'Comic Neue', cursive;letter-spacing:1px;color:#D4A017;}
+h1::before{content:"🌼 ";}
+h2::before{content:"✨ ";}
+p,li{font-family:'Comic Neue', cursive;}
+img:hover{transform:scale(1.05);transition:0.3s;}
+a:hover,button:hover{transform:scale(1.1);}
+.container{max-width:900px;margin:40px auto;padding:28px;background:var(--card);box-shadow:0 6px 18px rgba(0,0,0,0.08);border-radius:10px;transition:transform 0.3s;}
+.container:hover{transform:translateY(-3px);}
+ul{margin:8px 0 16px 20px;}
+table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 6px 12px rgba(0,0,0,0.05);border-radius:12px;overflow:hidden;border:2px solid var(--accent);}
+.photo-box{width:150px;height:150px;margin:20px 0 0 auto;border:4px dotted var(--accent);border-radius:12px;background:var(--frame);box-shadow:0 4px 10px rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;}
+.back{font-family:'Comic Neue', cursive;color:var(--text);text-decoration:none;border:2px solid var(--accent);padding:6px 14px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1);display:inline-block;background:var(--frame);}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<main class="container">
+<table class="title"><tr><td style="text-align:center;padding:15px;font-size:24px;background:var(--muted);color:#B88B3A;font-weight:bold;letter-spacing:1px;">🌼 Lesson — Iba't Ibang Estruktura ng Pamilihan</td></tr></table>
+
+<div style="width:80%; margin:15px auto;"><img src="pamilihan.jpg" alt="Market Structure" style="width:100%; max-height:250px; border-radius:12px;"></div>
+
+<h2>Ano ang Estruktura ng Pamilihan?</h2>
+<p>Ang estruktura ng pamilihan ay tumutukoy sa kung paano nakaayos ang ugnayan ng mga konsyumer at prodyuser sa isang ekonomiya. Ipinapakita nito kung gaano karaming sellers ang nagkokontrol ng presyo, kalidad, at dami ng produkto sa merkado.</p>
+
+<h2>1. Ganap na Kompetisyon (Perfect Competition)</h2>
+<ul>
+<li>Maraming maliliit na sellers at buyers.</li>
+<li>Pare-pareho ang produkto (walang kaibahan).</li>
+<li>Walang may kontrol sa presyo dahil nakabase ito sa demand at supply.</li>
+<li>Madaling pumasok at lumabas sa pamilihan.</li>
+</ul>
+
+<h2>2. Monopolyo (Monopoly)</h2>
+<ul>
+<li>Iisang prodyuser lang ang nagbebenta ng produkto.</li>
+<li>Siya ang may full control sa presyo at supply.</li>
+<li>Mahirap pasukin ng bagong negosyo dahil sa legal at teknikal na hadlang.</li>
+<li>Halimbawa: Meralco sa kuryente, tubig concessionaires.</li>
+</ul>
+
+<h2>3. Monopolistikong Kompetisyon (Monopolistic Competition)</h2>
+<ul>
+<li>Maraming sellers pero may kaibahan ang kanilang produkto (flavor, design, packaging).</li>
+<li>May bahagyang kontrol sa presyo dahil sa uniqueness ng produkto.</li>
+<li>Ginagamit ang branding at advertising para makahikayat ng mamimili.</li>
+<li>Halimbawa: milk tea shops, clothing brands, fast food chains.</li>
+</ul>
+
+<h2>4. Oligopolyo (Oligopoly)</h2>
+<ul>
+<li>Ilang malalaking kompanya lang ang nagkokontrol sa buong merkado.</li>
+<li>Kapag tumaas ang presyo ng isa, susunod ang iba upang hindi malugi.</li>
+<li>Madalas may “price war” o marketing competition.</li>
+<li>Halimbawa: telcos (Globe, Smart), softdrinks (Coke vs Pepsi).</li>
+</ul>
+
+<h2>5. Kartel</h2>
+<ul>
+<li>Grupo ng mga kompanya na nagkakasundo sa presyo at supply.</li>
+<li>Layunin nilang kontrolin ang merkado para tumaas ang kita.</li>
+<li>Ilegal ito sa maraming bansa dahil nakakasama sa mga konsyumer.</li>
+<li>Halimbawa: oil cartel (OPEC) sa pandaigdigang merkado.</li>
+</ul>
+
+<h2>Bakit Mahalaga ang Pag-unawa sa Estruktura ng Pamilihan?</h2>
+<ul>
+<li>Natutulungan ang mamimili na maintindihan kung bakit iba-iba ang presyo ng produkto.</li>
+<li>Naiintindihan ng prodyuser kung paano makikipagsabayan sa kompetisyon.</li>
+<li>Nakatutulong sa pamahalaan na gumawa ng batas laban sa pandaraya o pang-aabuso sa merkado.</li>
+</ul>
+
+<div class="photo-box"><img src="pompompurin.jpg" alt="pompom" style="max-width:100%; max-height:100%; border-radius:10px;"></div>
+<div style="text-align:center; margin-top:20px;"><a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apinteractive.html">⬅ Back</a></div>
+
+</main>
+</body>
+</html>

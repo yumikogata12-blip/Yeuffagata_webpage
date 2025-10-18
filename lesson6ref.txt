@@ -29,7 +29,8 @@ body{font-family:'Comic Neue',cursive;background:var(--bg);color:var(--reflectio
 <p>I tried applying these settings in my own example, and it was interesting to see how changing the size of one element affected the overall layout. I realized that even small adjustments in CSS can make a big difference in how a webpage looks and feels. Learning this makes me more confident in designing webpages that are both functional and visually appealing.</p>
 </section>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonsix.html" class="back-link">← Back to Navigation Page</a>
+<a href="lessonsix.html" class="back-link">← Back to Navigation Page</a>
 </div>
 </body>
 </html>
+

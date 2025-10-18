@@ -62,8 +62,9 @@ table.title{width:100%;margin-bottom:20px;border-collapse:collapse;box-shadow:0 
 </section>
 
 <div style="text-align:center; margin-top:20px;">
-<a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonone.html">⬅ Back to Lesson 1 Navigation Page</a>
+<a class="back" href="lessonone.html">⬅ Back to Lesson 1 Navigation Page</a>
 </div>
 </main>
 </body>
 </html>
+

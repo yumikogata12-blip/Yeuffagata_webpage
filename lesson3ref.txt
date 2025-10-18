@@ -25,13 +25,19 @@ body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflecti
 </section>
 
 <section class="reflection-section">
-<p>This lesson taught me the importance of following a CSS style guide to write clean, readable, and consistent code. I learned that even small things like punctuation, white space, and how values are written can make a big difference in how styles are interpreted by the browser.</p>
-<p>I now understand how different types of property values work like keywords, length units, percentages, and colors and how they help define the look and layout of web pages. The concept of multiple style sheets and how they cascade based on order was also a key takeaway.</p>
-<p>Additionally, learning about the different CSS selectors such as element, class, ID, group, and attribute selectors helped me realize how flexible and powerful CSS really is. Overall, this lesson gave me a solid foundation for writing better CSS that works across browsers and stays organized as websites grow.</p>
+<p>This lesson taught me the importance of understanding the difference between block-level elements and inline elements, particularly through the use of div and span tags. I learned that div is a block element, which naturally takes up the full width of its container and starts on a new line, making it ideal for structuring sections of a webpage. On the other hand, span is an inline element, meaning it only takes up as much width as its content and does not force a line break, which is perfect for styling small pieces of text within a paragraph without disrupting the flow.
+</p>
+<p>
+I now understand how using the right type of element affects the layout and behavior of web pages, and how CSS styles can be applied differently depending on whether an element is inline or block. This lesson reinforced the importance of writing clean and organized CSS, following style guides, and choosing the proper selectors for div and span to maintain consistent design and readability.
+</p>
+<p>
+Learning about inline versus block elements also helped me see the bigger picture of web page structure and design flexibility. I can now confidently use div to build layouts and span to highlight or style specific content without breaking the page flow. Overall, this lesson gave me a stronger foundation for creating well-structured, visually consistent, and maintainable web pages.
+</p>
 </section>
 
 <a href="lessonthree.html" class="back-link">← Back to Navigation Page</a>
 </div>
 </body>
 </html>
+
 

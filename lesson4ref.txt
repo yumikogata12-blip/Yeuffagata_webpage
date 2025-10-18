@@ -30,7 +30,8 @@ body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflecti
 <p>This lesson also introduced me to class and ID selectors, which help organize styles for multiple or specific elements. The ability to group selectors using commas is a helpful way to keep the CSS code clean and efficient. Overall, this lesson helped me build a better understanding of layout control and how to write scalable, reusable CSS.</p>
 </section>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfour.html" class="back-link">← Back to Navigation Page</a>
+<a href="lessonfour.html" class="back-link">← Back to Navigation Page</a>
 </div>
 </body>
+
 </html>

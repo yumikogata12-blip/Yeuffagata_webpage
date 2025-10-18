@@ -25,9 +25,16 @@ body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflecti
 </section>
 
 <section class="reflection-section">
-<p>In this lesson, I learned how the <strong>display property</strong> in CSS defines the way elements appear and behave on a webpage. Understanding the difference between block-level and inline-level elements gave me a clearer picture of how content flows in HTML.</p>
-<p>The <code>div</code> and <code>span</code> tags stood out as powerful tools for structuring content and applying styles without changing the document’s meaning. While <code>div</code> is block-level, useful for larger sections, <code>span</code> is perfect for styling inline text or small parts of content.</p>
-<p>This lesson also introduced me to class and ID selectors, which help organize styles for multiple or specific elements. The ability to group selectors using commas is a helpful way to keep the CSS code clean and efficient. Overall, this lesson helped me build a better understanding of layout control and how to write scalable, reusable CSS.</p>
+<p>In this lesson, I learned how the display property in CSS defines the way elements appear and behave on a webpage. Understanding the difference between block-level and inline-level elements gave me a clearer picture of how content flows in HTML.
+</p>
+<p>
+The div and span tags stood out as powerful tools for structuring content and applying styles without changing the meaning of the document. While div is block-level and useful for larger sections, span is perfect for styling inline text or small portions of content.
+</p>
+<p>
+This lesson also focused on class selectors, which allow me to assign the same style to multiple elements by giving them the same class name. Class selectors make it easy to create reusable styles and maintain consistency across a webpage. I learned that using a period (.) followed by the class name in CSS targets all elements with that class. Grouping class selectors with commas also helps keep the code organized and efficient.
+</p>
+<p>
+Overall, this lesson helped me understand how to use class selectors to write scalable, reusable CSS and control the layout and appearance of multiple elements in a consistent and manageable way.
 </section>
 
 <a href="lessonfour.html" class="back-link">← Back to Navigation Page</a>
@@ -35,3 +42,4 @@ body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflecti
 </body>
 
 </html>
+

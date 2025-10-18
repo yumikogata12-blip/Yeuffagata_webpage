@@ -32,7 +32,7 @@ The lesson also introduced the importance of div and span tags in organizing con
 </p>
 <p>
 I also learned how grouping selectors and using reusable CSS rules can streamline the design process. This lesson helped me realize that CSS is not just about changing colors, fonts, or sizes. It is about creating a scalable and professional structure that enhances both the appearance and functionality of a website.
-<p>
+</p>
 </section>
 
 <a href="lessontwo.html" class="back-link">← Back to Navigation Page</a>
@@ -40,4 +40,5 @@ I also learned how grouping selectors and using reusable CSS rules can streamlin
 </body>
 
 </html>
+
 

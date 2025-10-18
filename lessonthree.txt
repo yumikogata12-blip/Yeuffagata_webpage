@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lesson 3</title>
+<style>
+body{font-family:'Quicksand', sans-serif;background:#e6fff2;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;flex-direction:column;}
+.center-table{border:3px solid #a8e6cf;box-shadow:0 6px 12px rgba(160,230,200,0.4);border-radius:25px;background:#f2fff8;padding:30px;width:80%;text-align:center;}
+h1{color:#4dbd82;text-shadow:2px 2px #c0f0d6;font-size:40px;margin-bottom:20px;}
+.button-links a{display:inline-block;margin:10px 15px;padding:10px 25px;border:2px solid #91e0b3;border-radius:20px;background:#d5f7e0;color:#4ca77c;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(100,200,150,0.3);transition:all 0.3s;}
+.button-links a:hover{background:#b3f0cc;color:white;transform:scale(1.05);}
+.back{font-family:'Quicksand', sans-serif;color:#4dbd82;text-decoration:none;border:2px solid #91e0b3;padding:6px 14px;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.05);display:inline-block;margin-top:20px;}
+.back:hover{transform:scale(1.05);}
+</style>
+</head>
+<body>
+<div class="center-table">
+<h1>💚 Lesson 3 Navigation 💚</h1>
+<div class="button-links">
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson3bo.html">🌸 Browser-Output</a>
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson3ref.html">📝 Reflection</a>
+</div>
+<div style="text-align:center; margin-top:20px;"><a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/TLE-ICT.html">⬅ Back to TLE-ICT Page</a></div>
+</div>
+</body>
+</html>

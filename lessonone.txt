@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lesson1</title>
+<style>
+body{font-family:'Quicksand', sans-serif;background:#f7e6ff;margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;flex-direction:column;}
+.center-table{border:3px solid #d9b3ff;box-shadow:0 6px 12px rgba(200,150,255,0.4);border-radius:25px;background:#faf0ff;padding:30px;width:80%;text-align:center;}
+h1{color:#b57edc;text-shadow:2px 2px #e6ccff;font-size:40px;margin-bottom:20px;}
+.button-links a{display:inline-block;margin:10px 15px;padding:10px 25px;border:2px solid #c8a2ff;border-radius:20px;background:#f5e1ff;color:#8a5fbf;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(180,130,255,0.3);transition:all 0.3s;}
+.button-links a:hover{background:#e6ccff;color:white;transform:scale(1.05);}
+</style>
+</head>
+<body>
+<div class="center-table">
+<h1>💜 Lesson 1 Navigation 💜</h1>
+<div class="button-links">
+  <a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson1.html">🌸 Browser-Output</a>
+  <a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson1ref.html">📝 Reflection</a>
+<div style="text-align:center; margin-top:20px;"><a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/tle-ict.html" style="font-family:'Fredoka One', cursive; color: #b57edc; text-decoration:none; border:2px solid #b57edc; padding:6px 14px; border-radius:8px; box-shadow:0 4px 8px rgba(0,0,0,0.05); display:inline-block;">⬅ Back to TLE-ICT Page</a>
+</div>
+</div>
+</body>
+</html>

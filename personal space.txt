@@ -121,6 +121,7 @@ ul{font-size:20px;line-height:1.6;display:inline-block;text-align:left;vertical-
 </td></tr>
 </table>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/Webpage.html" class="back-home">🌸 Back to Homepage 🌸</a>
+<a href="Webpage.html" class="back-home">🌸 Back to Homepage 🌸</a>
 </body>
 </html>
+

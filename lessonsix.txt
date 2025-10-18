@@ -20,8 +20,9 @@ h1{color:#ff4d4d;text-shadow:2px 2px #ffc6c6;font-size:40px;margin-bottom:20px;}
 <a href="lesson6bo.html">🌸 Browser-Output</a>
 <a href="lesson6ref.html">📝 Reflection</a>
 </div>
-<div style="text-align:center; margin-top:20px;"><a class="back" href="TLE-ICT.html">⬅ Back to TLE-ICT Page</a></div>
+<div style="text-align:center; margin-top:20px;"><a class="back" href="tle-ict.html">⬅ Back to TLE-ICT Page</a></div>
 </div>
 </body>
 </html>
+
 

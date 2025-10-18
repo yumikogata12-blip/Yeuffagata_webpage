@@ -87,7 +87,8 @@ transform:scale(1.05);
 
 <p>Mahalaga rin ang papel ng pamahalaan sa regulasyon ng pamilihan. 🏛️ Ang pamahalaan ay tumutulong para maging patas ang kompetisyon, maprotektahan ang mamimili, at maiwasan ang pang-aabuso. Halimbawa, may mga batas at patakaran sila para siguraduhin na walang sobrang taas ng presyo at maayos ang kalidad ng produkto. Sa kabuuan, natutunan ko na ang merkado ay hindi lang tungkol sa presyo at produkto, kundi tungkol sa tamang balanse, patas na kompetisyon, at responsibilidad ng bawat isa sa pagpapanatili ng maayos at maunlad na ekonomiya. 🌸</p>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/apinteractive.html" class="button">Bumalik</a>
+<a href="apinteractive.html" class="button">Bumalik</a>
 </main>
 </body>
 </html>
+

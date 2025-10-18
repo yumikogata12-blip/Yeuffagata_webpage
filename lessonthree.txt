@@ -17,10 +17,11 @@ h1{color:#4dbd82;text-shadow:2px 2px #c0f0d6;font-size:40px;margin-bottom:20px;}
 <div class="center-table">
 <h1>💚 Lesson 3 Navigation 💚</h1>
 <div class="button-links">
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson3bo.html">🌸 Browser-Output</a>
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lesson3ref.html">📝 Reflection</a>
+<a href="lesson3bo.html">🌸 Browser-Output</a>
+<a href="lesson3ref.html">📝 Reflection</a>
 </div>
-<div style="text-align:center; margin-top:20px;"><a class="back" href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/TLE-ICT.html">⬅ Back to TLE-ICT Page</a></div>
+<div style="text-align:center; margin-top:20px;"><a class="back" href="TLE-ICT.html">⬅ Back to TLE-ICT Page</a></div>
 </div>
 </body>
 </html>
+

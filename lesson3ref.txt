@@ -30,7 +30,8 @@ body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflecti
 <p>Additionally, learning about the different CSS selectors such as element, class, ID, group, and attribute selectors helped me realize how flexible and powerful CSS really is. Overall, this lesson gave me a solid foundation for writing better CSS that works across browsers and stays organized as websites grow.</p>
 </section>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonthree.html" class="back-link">← Back to Navigation Page</a>
+<a href="lessonthree.html" class="back-link">← Back to Navigation Page</a>
 </div>
 </body>
 </html>
+

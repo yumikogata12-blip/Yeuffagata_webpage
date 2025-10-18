@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My Personal Space</title>
+<style>
+body{font-family:'Kristen ITC','Bradley Hand','Segoe Print',cursive;background:linear-gradient(135deg,#FFF8DC,#FFE6F3);text-align:center;padding:20px;}
+table{border:3px solid #FFB6C1;box-shadow:0 6px 12px rgba(255,182,193,0.3);border-radius:25px;margin:20px auto;padding:15px;transition:transform 0.2s;}
+table:hover{transform:scale(1.02);}
+img,video{border-radius:15px;margin:5px;}
+h1{color:#FF69B4;text-shadow:2px 2px #FFC0CB;font-size:50px;}
+h2{color:#FF69B4;text-shadow:1px 1px #FFC0CB;font-size:36px;}
+ul{font-size:20px;line-height:1.6;display:inline-block;text-align:left;vertical-align:top;margin:0 10px 0 0;width:60%;}
+.fav-img{border:3px dashed #FFB6C1;border-radius:25px;padding:10px;width:200px;height:auto;box-shadow:0 6px 12px rgba(255,182,193,0.6);}
+.fav-container{display:flex;justify-content:center;align-items:flex-start;gap:20px;}
+.friend-container{display:flex;flex-direction:column;align-items:center;gap:20px;margin-top:10px;}
+.friend-row{display:flex;flex-direction:row;align-items:flex-start;gap:20px;margin-bottom:20px;}
+.friend-img{width:300px;height:300px;object-fit:cover;border:5px double #FFB6C1;border-radius:25px;box-shadow:0 6px 12px rgba(255,182,193,0.5);padding:5px;background:#FFF0F5;}
+.friend-desc-box{border:3px dashed #FFB6C1;background:#FFF5F7;padding:10px;border-radius:20px;width:60%;text-align:left;font-size:14px;box-shadow:0 4px 12px rgba(255,182,193,0.4);}
+.friend-video{width:300px;border:5px double #FFB6C1;border-radius:25px;box-shadow:0 6px 12px rgba(255,182,193,0.5);background:#FFF0F5;padding:5px;}
+.about-me-row{display:flex;justify-content:center;align-items:flex-start;gap:20px;margin-bottom:20px;}
+.about-me-pic{border:5px double #FFB6C1;border-radius:25px;box-shadow:0 6px 12px rgba(255,182,193,0.5);padding:5px;}
+.about-me-box{background:#FFDEE9;border:3px dashed #FFB6C1;border-radius:20px;padding:15px;flex:1;text-align:left;max-width:250px;}
+.appreciation-box{background:#FFF0F5;border:3px dashed #FFB6C1;border-radius:20px;padding:15px;margin-top:15px;box-shadow:0 4px 12px rgba(255,182,193,0.4);font-size:16px;text-align:center;}
+.family-row{display:flex;justify-content:center;align-items:flex-start;gap:40px;margin-top:10px;}
+.family-member{display:flex;flex-direction:column;align-items:center;gap:10px;}
+.family-img{width:200px;height:auto;border:5px double #FFB6C1;border-radius:25px;box-shadow:0 6px 12px rgba(255,182,193,0.5);padding:5px;}
+.family-desc{border:3px dashed #FFB6C1;background:#FFF5F7;padding:10px;border-radius:20px;width:200px;text-align:center;font-size:14px;box-shadow:0 4px 12px rgba(255,182,193,0.4);}
+.back-home{display:inline-block;margin:20px;padding:10px 20px;border:2px solid #FFB6C1;border-radius:20px;background:#FFDEE9;color:#FF69B4;text-decoration:none;font-weight:bold;box-shadow:0 4px 8px rgba(255,182,193,0.4);transition:all 0.3s;}
+.back-home:hover{background:#FFB6C1;color:white;transform:scale(1.05);}
+#favourites-table{background:#FFFACD;}
+#circle-friends-table{background:#FFF0F5;}
+#family-table{background:#E0FFFF;}
+</style>
+</head>
+<body>
+<h1>🌸 About Me 🌸</h1>
+<div class="about-me-row">
+<img src="yeuffa.jpg" alt="My Picture" width="200" class="about-me-pic">
+<div class="about-me-box">
+<p><b>Name:</b> Yeuffa Yumiko R. Gata</p>
+<p><b>Age:</b> 14 years old</p>
+<p><b>Birthday:</b> March 19, 2011</p>
+</div>
+</div>
+
+<table cellpadding="12" cellspacing="0" border="0" width="90%" id="favourites-table">
+<tr><td><h2>🌟 My Favourites</h2></td></tr>
+<tr><td>
+<ul style="font-size:18px;text-align:left;">
+<li><b>Favorite Color:</b> Baby Pink</li>
+<li><b>Favorite Animal:</b> Cat</li>
+<li><b>Favorite Food:</b> Bread and Pastries</li>
+<li><b>Favorite Hobby:</b> Reading, Drawing, Gaming, Watching Movies</li>
+<li><b>Favorite Movie:</b> Interstellar, Hunger Games, Harry Potter</li>
+</ul>
+<img src="nanami.jpg" alt="Favorite Image" class="fav-img">
+</td></tr>
+</table>
+
+<table cellpadding="12" cellspacing="0" border="0" width="90%" id="circle-friends-table">
+<tr><td><h2>💞 My Circle of Friends</h2></td></tr>
+<tr><td>
+<div class="friend-container">
+<div class="friend-row">
+<img src="skinnies.jpg" alt="Skinnies" class="friend-img">
+<div class="friend-desc-box">
+<b>Skinnies:</b>
+<ul style="list-style:none;padding:0;margin:0;">
+<li>Joy: Funny, Kind, Honest</li>
+<li>Jayzel: Funny, Artistic, Unique, Joyful</li>
+<li>Martin: Smart, Artistic, Hardworking</li>
+<li>Rolly: Funny, Sporty, Helpful</li>
+<li>Chloe: Kind, Funny, Artistic</li>
+<li>Nicole: Kind, Religious, Honest</li>
+<li>Renz: Sporty, Religious, Funny</li>
+<li>Mark: Funny, Smart, Kind</li>
+<li>Dash: Smart, Funny, Helpful</li>
+<li>Ayeka: Kind, Funny, Helpful</li>
+<li>Maeur: Talented, Kind, Religious, Smart</li>
+</ul>
+</div>
+</div>
+<div class="friend-row">
+<img src="jandj.jpg" alt="JandJ" class="friend-img">
+<div class="friend-desc-box">
+<b>JandJ:</b>
+<ul style="list-style:none;padding:0;margin:0;">
+<li>Jayzel: Close friend, expressive and caring.</li>
+<li>Joy: Quiet at first but very trustworthy and fun.</li>
+</ul>
+</div>
+</div>
+<div class="friend-row">
+<video controls class="friend-video">
+<source src="skinnies.mp4" type="video/mp4">
+</video>
+<div class="friend-desc-box">This was us having fun at Dash's Birthday!v>
+</div>
+
+<div class="appreciation-box">
+<b>I want to take a moment to express my heartfelt appreciation to all of my amazing friends! Your support, laughter, and shared adventures have made my school days brighter. I am truly grateful for every fun memory and every time you’ve made me smile. You all are a treasure! 💖</b>
+</div>
+</div>
+</td></tr>
+</table>
+
+<table cellpadding="12" cellspacing="0" border="0" width="90%" id="family-table">
+<tr><td><h2>👨‍👩‍👧 My Family</h2></td></tr>
+<tr><td>
+<div class="family-row">
+<div class="family-member">
+<img src="fam.1.jpg" alt="Family Pic 1" class="family-img">
+<div class="family-desc">This is my family. My family has 7 members. Inside our home, you may find us talking, laughing and sometimes even arguing.</div>
+</div>
+<div class="family-member">
+<img src="fam.2.jpg" alt="Family Pic 2" class="family-img">
+<div class="family-desc">Our family is not perfect and just like other families, my family encounters problems and miscommunications.But even though my family is not perfect, I wouldn't wish for another family.</div>
+</div>
+</div>
+</td></tr>
+</table>
+
+<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/Webpage.html" class="back-home">🌸 Back to Homepage 🌸</a>
+</body>
+</html>

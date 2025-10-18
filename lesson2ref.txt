@@ -29,7 +29,8 @@ body{font-family:'Comic Neue', cursive;background:var(--bg);color:var(--reflecti
 <p>By exploring the components of CSS, I saw how we can control the look and feel of HTML elements efficiently. The concept of grouping selectors also showed me how to keep code clean and organized. This lesson helped me see that CSS is not just about changing colors or fonts—it's about building reusable, manageable styling structures that make web development more scalable and professional.</p>
 </section>
 
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessontwo.html" class="back-link">← Back to Navigation Page</a>
+<a href="lessontwo.html" class="back-link">← Back to Navigation Page</a>
 </div>
 </body>
+
 </html>

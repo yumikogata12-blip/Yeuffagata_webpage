@@ -25,6 +25,7 @@ item</li>
 <img src="l4ss.png" alt="lesson 4">
 <figcaption>Browser Output Screenshot</figcaption>
 </figure>
-<a href="file:///C:/Users/Kimiko/OneDrive/Desktop/YEUFFA%20ICT%20PT/lessonfour.html">Go Back to Lesson 4 Navigation Page</a>
+<a href="lessonfour.html">Go Back to Lesson 4 Navigation Page</a>
 </body>
 </html>
+
